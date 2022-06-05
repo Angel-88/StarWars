@@ -1,0 +1,32 @@
+.background {
+    display: flex;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.background img {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.backgroundTitle {
+    font-size: 115px;
+    line-height: 1.25;
+    font-family: 'Macondo', cursive;
+    text-shadow: 5px 5px 10px #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    margin: 20px;
+    color: #8e2187;
+}
+
+.backgroundTitle span {
+    display: block;
+    font-size: 160px;
+}
+
+.episode {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+}
