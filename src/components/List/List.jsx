@@ -13,7 +13,7 @@ export default function List ({ list, page }) {
 
     return () => {
       if (source) source.cancel('Landing Component got unmounted');
-      setLoading(false);
+      setLoading(false)
     };
   });
 
