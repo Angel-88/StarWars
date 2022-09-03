@@ -1,0 +1,63 @@
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.details {
+    display: flex;
+    margin: 50px 50px 10px 50px;
+    align-content: center;
+}
+
+.details__info {
+    margin-left: 40px;
+}
+
+.details__title {
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #551a8b;
+    text-transform: uppercase;
+    animation: flicker .5s infinite alternate;
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow: 0 0 2px #f1efe1,
+        0 0 4px #f1efe1,
+        0 0 8px #f1efe1,
+        0 0 15px #BFE2FF,
+        0 0 30px #BFE2FF,
+        0 0 40px #BFE2FF,
+        0 0 70px #BFE2FF,
+        0 0 100px #BFE2FF;
+    }
+    20%, 24%, 55% {
+        text-shadow: 0 0 1px #f1efe1,
+        0 0 2px #f1efe1,
+        0 0 5px #f1efe1,
+        0 0 11px #BFE2FF,
+        0 0 20px #BFE2FF,
+        0 0 30px #BFE2FF,
+        0 0 55px #BFE2FF,
+        0 0 80px #BFE2FF;
+    }
+}
+
+.details__text {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-family: serif;
+    color: #ede2c7;
+    line-height: 1.5;
+}
+
+.details__text span {
+    letter-spacing: 3px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #847aae;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 2px #7672ac;
+}
